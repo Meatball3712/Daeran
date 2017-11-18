@@ -1,0 +1,60 @@
+[gd_scene format=1]
+
+[node name="dialogue_window" type="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 209.0
+margin/top = 129.0
+margin/right = 709.0
+margin/bottom = 829.0
+
+[node name="ColorFrame" type="ColorFrame" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 500.0
+margin/bottom = 700.0
+color = Color( 1, 1, 1, 1 )
+
+[node name="Label" type="Label" parent="."]
+
+rect/scale = Vector2( 1.5, 1.5 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 52.0
+margin/top = 103.0
+margin/right = 82.0
+margin/bottom = 120.0
+custom_colors/font_color = Color( 0.0570626, 0.0270233, 0.988281, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "NPC"
+uppercase = true
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Button" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 162.0
+margin/top = 475.0
+margin/right = 225.0
+margin/bottom = 508.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+
