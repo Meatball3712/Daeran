@@ -1,0 +1,35 @@
+[gd_scene format=1]
+
+[node name="Node2D" type="Node2D"]
+
+transform/pos = Vector2( 28.7076, 32.8087 )
+
+[node name="ColorFrame" type="ColorFrame" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = -46.0
+margin/top = -37.0
+margin/right = 1927.0
+margin/bottom = 1069.0
+color = Color( 0.090271, 0.398438, 0.145645, 1 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+
+rect/scale = Vector2( 5, 5 )
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 682.0
+margin/top = 470.0
+margin/right = 765.0
+margin/bottom = 486.0
+bbcode/enabled = false
+bbcode/bbcode = "MAIN MENU"
+visible_characters = -1
+percent_visible = 1.0
+
+
